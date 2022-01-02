@@ -31,9 +31,15 @@ Pastikan meletakkan direktori bin milik Composer pada `$PATH` sehingga `laravel`
 Kemudian jalankan perintah berikut untuk instalasi laravel :
 
 ```bash
-    laravel new example-app
+    laravel new <nama_folder>
 
-    cd example-app
+    cd <nama_folder>
 
     php artisan serve
+```
+
+## Setting file .env
+
+```bash
+    APP_URL=http://127.0.0.1:8000/
 ```
