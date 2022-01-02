@@ -96,6 +96,7 @@ Kemudian jalankan perintah berikut untuk instalasi laravel :
 -   Buat folder baru di views, yaitu folder `guest` untuk meletekan file-file untuk guest.
 -   Buat file `home.blade.php` didalam folder guest, dengan format :
     ```php
+        @extends('layouts.guest')
         @section('content')
             <!-- isi content home -->
         @endsection
