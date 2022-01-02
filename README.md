@@ -58,3 +58,24 @@ Kemudian jalankan perintah berikut untuk instalasi laravel :
             return 'Kata';
         });
     ```
+
+## Mengirim data dari Routes
+
+1.  Cara 1
+    Inisialisasi data
+
+    ```php
+        Route::get('/', function () {
+            return view('welcome', [
+                "name" => "Deocoding",
+                "email" => "deocoding@gmail.com"
+            ]);
+        });
+    ```
+
+    Menampilkan data
+
+    ```php
+        <h3><?= $name ?></h3>
+        <p><?= $email ?></p>
+    ```
