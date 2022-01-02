@@ -59,11 +59,9 @@ Kemudian jalankan perintah berikut untuk instalasi laravel :
         });
     ```
 
-## Mengirim data dari Routes
+## Mengirim data
 
-1.  Cara 1
-
-    Inisialisasi data
+1.  Langsung dari Route
 
     ```php
         Route::get('/', function () {
@@ -76,7 +74,29 @@ Kemudian jalankan perintah berikut untuk instalasi laravel :
 
     Menampilkan data
 
+    ```php
+        <h3>{{ $name }}</h3>
+        <p>{{ $email }}</p>
     ```
-        <h3><?php echo $name ?></h3> atau <h3><?= $name ?></h3> atau <h3>{{ $name }}</h3>
-        <p><?php echo $email ?></p> atau <p><?= $email ?></p> atau <p>{{ $email }}</p>
+
+## Blade Templating Engine
+
+-   Buat folder baru di views, yaitu folder `layouts`.
+-   Buat file `guest.blade.php` didalam folder layout, dengan format :
+    ```php
+        <html>
+            <head>
+                <!-- isi head -->
+            </head>
+            <body>
+                @yield('content')
+            </body>
+        </html>
+    ```
+-   Buat folder baru di views, yaitu folder `guest` untuk meletekan file-file untuk guest.
+-   Buat file `home.blade.php` didalam folder guest, dengan format :
+    ```php
+        @section('content')
+            <!-- isi content home -->
+        @endsection
     ```
