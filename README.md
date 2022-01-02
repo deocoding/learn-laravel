@@ -4,7 +4,9 @@
 
 ```bash
     composer create-project laravel/laravel <nama_folder>
+
     cd <nama_folder>
+
     php artisan serve
 ```
 
