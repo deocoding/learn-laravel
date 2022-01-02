@@ -1,8 +1,12 @@
 <h1 align="center">Belajar Laravel 8 (Beginner)</h1>
 
-## Belajar Laravel 8 (Beginner)
+## Instalasi via Composer
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+```bash
+    composer create-project laravel/laravel <nama_folder>
+    cd <nama_folder>
+    php artisan serve
+```
 
 -   [Simple, fast routing engine](https://laravel.com/docs/routing).
 -   [Powerful dependency injection container](https://laravel.com/docs/container).
