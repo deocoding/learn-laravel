@@ -43,3 +43,18 @@ Kemudian jalankan perintah berikut untuk instalasi laravel :
 ```bash
     APP_URL=http://127.0.0.1:8000/
 ```
+
+## Tipe-tipe Routes Web
+
+1.  Routes untuk menampilkan View
+    ```php
+        Route::get('/', function () {
+            return view('welcome');
+        });
+    ```
+1.  Routes untuk menampilkan String
+    ```php
+        Route::get('/', function () {
+            return 'Kata';
+        });
+    ```
