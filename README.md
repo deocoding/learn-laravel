@@ -1,8 +1,8 @@
 <h1 align="center">Belajar Laravel 8</h1>
 
--   Level : Dasar
--   [x] PHP min versi 7.4
--   [x] Composer terinstal
+-   [x] Level Dasar
+-   [x] PHP min versi 7.4 terinstall
+-   [x] Composer terinstall
 
 ## Instalasi via Composer
 
