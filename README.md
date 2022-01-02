@@ -14,11 +14,19 @@
     php artisan serve
 ```
 
-## Learning Laravel
+## Instalasi menggunakan Laravel Installer
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Install global Composer dependensi:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```bash
+    composer global require laravel/installer
+```
+
+Pastikan meletakkan direktori bin milik Composer pada `$PATH` sehingga `laravel` dapat dieksekusi secara mandiri oleh sistem. Direktori ini terletak pada lokasi yang berbeda tergantung dari Sistem Operasi yang digunakan :
+
+-   macOS: `$HOME/.composer/vendor/bin`
+-   Windows: `%USERPROFILE%\AppData\Roaming\Composer\vendor\bin`
+-   GNU / Linux Distributions: `$HOME/.config/composer/vendor/bin` or `$HOME/.composer/vendor/bin`
 
 ## Laravel Sponsors
 
