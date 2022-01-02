@@ -76,7 +76,7 @@ Kemudian jalankan perintah berikut untuk instalasi laravel :
 
     Menampilkan data
 
-    ```html
-    <h3><?= $name ?></h3>
-    <p><?= $email ?></p>
+    ```
+        <h3><?php echo $name ?></h3> atau <h3><?= $name ?></h3> atau <h3>{{ $name }}</h3>
+        <p><?php echo $email ?></p> atau <p><?= $email ?></p> atau <p>{{ $email }}</p>
     ```
