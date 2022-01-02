@@ -62,6 +62,7 @@ Kemudian jalankan perintah berikut untuk instalasi laravel :
 ## Mengirim data dari Routes
 
 1.  Cara 1
+
     Inisialisasi data
 
     ```php
